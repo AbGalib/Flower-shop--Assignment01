@@ -1,0 +1,113 @@
+/*Shared Styles*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn-primary {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.header-title {
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+
+.h-sub-title {
+    margin-bottom: 5%;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.one {
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+.two {
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.pic-1 {
+    width: 600px;
+    height: 700px;
+}
+
+
+/* 2nd para */
+
+.part-two {
+    margin-top: 25px;
+
+}
+
+.title2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sub-title2 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.flex-two{
+    display: flex;
+    padding-left: 7%;
+}
+
+.vest {
+    margin-bottom: 25px;
+    padding-left: 5%;
+}
+
+.v1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+}
+
+.v1-img {
+    margin-top: 70px;
+    width: 250px;
+    height: 380px;
+    
+}
