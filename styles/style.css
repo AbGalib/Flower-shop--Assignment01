@@ -90,7 +90,7 @@ body {
 .flex-two {
     display: flex;
     padding-left: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .vest {
@@ -128,27 +128,153 @@ body {
     text-decoration-line: underline;
 }
 
-.part-three{
-  margin-left: 5%;
+.part-three {
+
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .board {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    width: 1440px;
+    width: 1240px;
     height: 320px;
     display: flex;
+    gap: 10%;
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 10%;
 
-    
+
 }
 
-.v2 {margin-left: 15%;}
+.v2 {
+    text-align: center;
+}
 
 .v2-img {
     align-items: center;
 }
 
-.content{
-    margin-left: 15%;
-    
+.content {
+    margin-top: 5%;
+    align-items: center;
+    padding-left: 1%;
+    text-align: center;
 }
+
+.text2 {
+
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.title-1 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sub-title-2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 5%;
+    padding-left: 6%;
+    text-align: center;
+}
+
+.card-content {
+    width: 280px;
+    height: 380px;
+
+
+}
+
+.part-five {
+    border-radius: 8px;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    position: absolute;
+    /* Ensure positioning context for absolute positioning */
+    width: 1440px;
+    height: 449px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.txt-below {
+    margin-top: 100px;
+}
+
+
+.pa {
+
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    align-items: center;
+}
+
+
+.pa2 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.input {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; /* Center the flex items horizontally */
+    align-items: center; /* Center the flex items vertically */
+}
+
+.frm {
+    margin-right: 20px; /* Adjust the margin between the form and button */
+}
+
+.frm1 {
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    position: relative;
+    /* You may want to remove position: relative; if not needed */
+}
+
+.btn-last {
+    /* No need for specific styles if you don't have additional requirements */
+}
+
+.btn-l {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white; /* Add text color to ensure visibility */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add pointer cursor for better UX */
+    position: relative;
+}
+
+.part-six {
+        background-color: black;
+    }
+    
+
